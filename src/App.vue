@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/longitud">longitud </router-link>
       <router-link to="/masa">masa </router-link>
+      <router-link to="/Monedas">monedas </router-link>
     </div>
     <router-view/>
   </div>

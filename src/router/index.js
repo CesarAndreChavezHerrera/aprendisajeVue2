@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Longitud from "../views/longitud.vue" //inicial mayuscula 
 import Masa from '../components/Masa.vue'
+import Monedas from '../components/Monedas.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/masa',
     name: 'Masa',
     component: Masa // debe ser letra mayuscula la inicial para que no se confunda esta tontera
+  },
+  {
+    path: '/monedas',
+    name: 'monedas',
+    component: Monedas // debe ser letra mayuscula la inicial para que no se confunda esta tontera
   },
 ]
 
