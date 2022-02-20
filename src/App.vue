@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/longitud">longitud </router-link>
-      
+      <router-link to="/masa">masa </router-link>
     </div>
     <router-view/>
   </div>
