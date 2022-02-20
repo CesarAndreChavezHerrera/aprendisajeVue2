@@ -1,10 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <br>
+    <b-navbar type="dark" variant="dark">
+    <b-navbar-nav align='center'>
+
+      <!--Inclusion aqui de la vista para ser mostrada en el Navbar-->
+      <b-nav-item to="/">Home</b-nav-item>
+      <b-nav-item to="/longitud">longitud</b-nav-item>
+      <b-nav-item to="/masa">masa </b-nav-item>
+      <b-nav-item to="/Monedas">monedas </b-nav-item>
+      <b-nav-item to="/Tiempo">Tiempo </b-nav-item>
+
+     
+      </b-navbar-nav>
+  </b-navbar>
+    
+    
+    <!-- <div id="nav">
       <router-link to="/longitud">longitud </router-link>
       <router-link to="/masa">masa </router-link>
       <router-link to="/Monedas">monedas </router-link>
-    </div>
+      <router-link to="/Tiempo">Tiempo </router-link>
+    </div> -->
     <router-view/>
   </div>
 </template>
