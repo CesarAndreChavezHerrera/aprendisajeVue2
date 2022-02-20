@@ -5,6 +5,7 @@ import Longitud from "../views/longitud.vue" //inicial mayuscula
 import Masa from '../components/Masa.vue'
 import Monedas from '../components/Monedas.vue'
 import Tiempo from '../components/tiempo.vue'
+import Almacenamiento from '../components/almacenamiento.vue'
 
 
 Vue.use(VueRouter)
@@ -34,6 +35,11 @@ const routes = [
     path: '/tiempo',
     name: 'Tiempo',
     component: Tiempo // debe ser letra mayuscula la inicial para que no se confunda esta tontera
+  },
+  {
+    path: '/almacenamiento',
+    name: 'almacenamiento',
+    component: Almacenamiento // debe ser letra mayuscula la inicial para que no se confunda esta tontera
   },
 ]
 

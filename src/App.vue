@@ -10,6 +10,7 @@
       <b-nav-item to="/masa">masa </b-nav-item>
       <b-nav-item to="/Monedas">monedas </b-nav-item>
       <b-nav-item to="/Tiempo">Tiempo </b-nav-item>
+      <b-nav-item to="/Almacenamiento">Almacenamiento </b-nav-item>
 
      
       </b-navbar-nav>
@@ -21,6 +22,7 @@
       <router-link to="/masa">masa </router-link>
       <router-link to="/Monedas">monedas </router-link>
       <router-link to="/Tiempo">Tiempo </router-link>
+      <router-link to="/Almacenamiento">Almacenamiento </router-link>
     </div> -->
     <router-view/>
   </div>
